@@ -24,7 +24,7 @@ def create_fly():
     fly_rect.y = random.randint(0, height - fly_rect.height)  # Random fly position on the vertical axis
     return fly_rect
 
-# Load the trap image
+# Load the trap image.
 trap_image = pygame.image.load("trap.png")
 trap_rect = trap_image.get_rect()
 
