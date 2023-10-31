@@ -28,7 +28,7 @@ def create_fly():
 trap_image = pygame.image.load("trap.png")
 trap_rect = trap_image.get_rect()
 
-# Initial coordinates of the trap
+# Initial coordinates of the trap.
 trap_rect.x = width // 2 - trap_rect.width // 2
 trap_rect.y = height // 2 - trap_rect.height // 2
 
